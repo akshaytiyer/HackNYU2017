@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Safety Champ!</title>
+<img src="logo2.png" alt="CSGO Howl" style="float:left";>
+    <br>
+    <br>
+</head>
+<body>
+  <div class="columnsContainer">
+
+<div align="center">
+	<h1>  Lets learn about Private Body Parts</h1>
+
+
+	<img id="badman"  src="girlright2.png" alt="Smiley face" align="middle">
+
+	  	</div>
+
+	  	<div align="center">
+	  		<h2>Answer These:</h2>
+ <h2>Is this a girl's private parts?</h2>
+		<br>
+	<div id="yesarea">
+	<button class="button" onclick="showYes()">Yes</button>
+	</div>
+
+		<div id="yesResponse">
+		</div>
+
+			<script type="text/javascript">
+			  function showYes() {
+			     document.getElementById("yesResponse").innerHTML = "Correct! :) "
+				 document.getElementById('nextbutton').style.display = "block";
+				 noarea.style.visibility = "hidden";
+			}
+			</script>
+    <div id="noarea">
+	<button class="button" onclick="showNo()">No</button>
+	</div>
+
+		<div id="noResponse"></div>
+
+			<script type="text/javascript">
+			  function showNo() {
+			     document.getElementById("noResponse").innerHTML = "Wrong! :( "
+			     document.getElementById('tryagainbutton').style.display = "block";
+			     yesarea.style.visibility = "hidden";
+			}
+			</script>
+<!-- Tst -->
+<br>
+	<div id="nextbutton"  style="display:none;" class="answer_list" >
+	<button class="button"> <a href="question6.html">Next</a></button>
+	</div>
+
+	<div id="tryagainbutton"  style="display:none;" class="answer_list" >
+	<input type="button" value="Try Again" onClick="window.location.reload()">
+	</div>
+<br>
+<p>Score</p>
+
+<img id="score"  src="star.png" alt="Smiley face" align="middle">
+<img id="score"  src="star.png" alt="Smiley face" align="middle">
+<img id="score"  src="star.png" alt="Smiley face" align="middle">
+<img id="score"  src="star.png" alt="Smiley face" align="middle">
+<img id="score"  src="star.png" alt="Smiley face" align="middle">
+  	</div>
+
+
+
+
+</body>
+</html>
